@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import './App.less'
 
-import Wrapper from './src/pages'
+import RouterComponent from '@router'
 
-class App extends Component{
-   render(){
-      return(
-         <div>
-            <Wrapper />
-         </div>
-      );
-   }
+class App extends Component {
+  render() {
+    return (
+      <div className="app-container">
+        <RouterComponent />
+      </div>
+    )
+  }
 }
 export default App

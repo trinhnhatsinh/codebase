@@ -4,7 +4,11 @@
       "paths": {
           "@misc/*": ["src/misc/*"],
           "@pages/*": ["src/pages/*"],
-          "@components/*": ["src/components/*"]
+          "@components/*": ["src/components/*"],
+          "@constants/*": ["src/constants/*"],
+          "@router/*": ["src/router"],
+          "@translation/*": ["src/translation/*"],
+          "@uitls/*": ["src/uitls/*"]
       }
   },
   "exclude": ["node_modules"]

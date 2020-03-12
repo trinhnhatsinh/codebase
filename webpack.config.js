@@ -55,7 +55,11 @@ module.exports = {
     alias: {
       '@misc': path.resolve(__dirname, './src/misc'),
       '@pages': path.resolve(__dirname, './src/pages'),
-      '@components': path.resolve(__dirname, './src/components')
+      '@constants': path.resolve(__dirname, './src/constants'),
+      '@components': path.resolve(__dirname, './src/components'),
+      '@translation': path.resolve(__dirname, './src/translation'),
+      '@router': path.resolve(__dirname, './src/router'),
+      '@uitls': path.resolve(__dirname, './src/uitls')
     }
   }
 }
