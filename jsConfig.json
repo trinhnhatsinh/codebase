@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+          "@misc/*": ["src/misc/*"],
+          "@pages/*": ["src/pages/*"],
+          "@components/*": ["src/components/*"]
+      }
+  },
+  "exclude": ["node_modules"]
+}
